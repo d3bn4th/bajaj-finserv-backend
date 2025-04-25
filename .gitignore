@@ -1,6 +1,5 @@
 HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
+# Removing target/ to include the JAR file
 !**/src/main/**/target/
 !**/src/test/**/target/
 
