@@ -23,9 +23,9 @@ Update the following fields in `WebhookService.java` with your information:
 
 ```java
 InitialRequest request = new InitialRequest(
-    "YourName",            // Replace with your name
-    "YourRegNo",           // Replace with your registration number
-    "your@email.com"       // Replace with your email
+    "John Doe",            // Replace with your name
+    "REG12347",           // Replace with your registration number
+    "john@email.com"       // Replace with your email
 );
 ```
 
@@ -33,9 +33,9 @@ And also in the webhook response:
 
 ```java
 WebhookResponse response = new WebhookResponse(
-    "YourName",            // Replace with your name
-    "YourRegNo",           // Replace with your registration number
-    "your@email.com",      // Replace with your email
+    "John Doe",            // Replace with your name
+    "REG12347",           // Replace with your registration number
+    "john@email.com",      // Replace with your email
     result
 );
 ```
